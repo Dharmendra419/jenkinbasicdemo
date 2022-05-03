@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo "Build Stage starts ...."
                 sh 'pwd'
+                sh 'ls'
                 sh 'cd /jenkinsbasicdemo'
                 sh 'npm install' 
             }

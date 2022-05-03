@@ -1,15 +1,10 @@
 echo"This is a jenkins file "
 pipeline {
-    agent {
-        docker {
-            image 'node:lts-bullseye-slim' 
-            args '-p 3000:3000' 
-        }
-    }
+    agent any
     stages {
         stage('Build') { 
             steps {
-                echo 'Build Stage starts ....'
+                echo "Build Stage starts ...."
                 sh 'npm install' 
             }
         }

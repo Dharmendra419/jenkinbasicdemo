@@ -7,7 +7,7 @@ pipeline {
                 echo "Build Stage starts ...."
                 sh 'pwd'
                 sh 'ls'
-                sh 'cd /jenkinsbasicdemo'
+                sh 'cd /jenkinbasicdemo'
                 sh 'npm install' 
             }
         }

@@ -8,7 +8,7 @@ pipeline {
                 sh 'pwd'
                 sh 'ls'
                 sh 'cd /jenkinbasicdemo'
-                sh 'npm install' 
+                sh 'npm start' 
             }
         }
     }

@@ -8,8 +8,8 @@ pipeline {
                 sh 'pwd'
                 sh 'ls'
                 sh 'cd jenkinbasicdemo'
-                sh 'sudo npm install' 
-                sh 'sudo npm run build'
+                sh 'npm install' 
+                sh 'npm run build'
             }
         }
     }
